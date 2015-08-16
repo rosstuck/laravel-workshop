@@ -1,0 +1,4 @@
+name: Workshop Migrations
+migrations_namespace: DoctrineMigrations
+table_name: doctrine_migrations
+migrations_directory: database/doctrine-migrations
