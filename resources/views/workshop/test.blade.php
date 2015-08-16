@@ -1,1 +1,1 @@
-Hooray, it works!
+Let's rock.
