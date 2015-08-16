@@ -4,5 +4,7 @@ To get started, you need PHP 5.5 or higher and a database of choice (I used MySQ
 
 - `composer install`
 - Copy `.env.example` to `.env` and configure it for your database.
+- Run `./artisan migrations:migrate` (That's not a typo of the Laravel migrations, we're using Doctrine migrations).
+- Run `./artisan key:generate` to setup
 - `./artisan serve`
 - Navigate to [localhost:8000](http://localhost:8000/) and you should see a success message
